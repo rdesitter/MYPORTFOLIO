@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 27 27">
+    <path fill="none" stroke="#fff" class="cross" d="M19,27H9a8,8,0,0,1-8-8V9A8,8,0,0,1,9,1H19a8,8,0,0,1,8,8V19A8,8,0,0,1,19,27Z" transform="translate(-0.5 -0.5)"/>
+    <polyline fill="none" stroke="#fff" class="cross" points="8.5 18.5 13.5 13.5 18.5 18.5"/>
+    <polyline fill="none" stroke="#fff" class="cross" points="18.5 8.5 13.5 13.5 8.5 8.5"/>
+</svg>

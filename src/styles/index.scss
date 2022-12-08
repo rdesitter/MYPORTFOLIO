@@ -1,0 +1,50 @@
+@use './reset';
+@use './base/typo.scss';
+@use './vars';
+
+.test {
+  padding: 250px;
+  color: white;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: vars.$light;
+  font-size: 1.6rem;
+}
+
+.app {
+  max-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  display: flex;
+
+  @media screen and (max-width: 900px) {
+          max-width: 100%;
+  }
+}
+
+.light {
+  color: vars.$black;
+  background-color: vars.$light;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
