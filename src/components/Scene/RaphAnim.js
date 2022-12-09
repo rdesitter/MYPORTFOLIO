@@ -6,7 +6,7 @@ import React, { useRef, useEffect } from 'react'
 import { useGLTF, useAnimations } from '@react-three/drei'
 
 export function Model(props) {
-  let position = [-0.825, -0.9, 0];
+  let position = [-1.1, -0.9, 0];
   const group = useRef()
   const { nodes, materials, animations } = useGLTF('/raphAnim.glb')
   const { actions } = useAnimations(animations, group)
@@ -26,7 +26,7 @@ export function Model(props) {
       group.current.position.x = 0;
       group.current.position.y = -0.5;
     } else {
-      group.current.position.x = -1.1;
+      group.current.position.x = -1.3;
       group.current.position.y = -0.9;
     }
   }
