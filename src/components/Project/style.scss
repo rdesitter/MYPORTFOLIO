@@ -216,7 +216,7 @@
                 background: rgba($color: vars.$light, $alpha: 0.5);
                 margin-bottom: 10px;
                 opacity: 0;
-                transform: translateX(-300px);
+                transform: translateX(-500px);
                 border-radius: 5px;
                 padding: 5px;
                 text-decoration: none;
@@ -236,7 +236,7 @@
                 text-transform: uppercase;
                 color: vars.$light;
                 margin-bottom: 30px;
-                transform: translateX(-3000px);
+                transform: translateX(-1000px);
 
                 @media screen and (max-width: 900px) {
                   font-size: 14vw;
@@ -297,7 +297,7 @@
             }
 
             &__introduction {
-              transform: translateX(-3000px);
+              transform: translateX(-1000px);
             }
         } 
 
