@@ -12,10 +12,10 @@ const Error404 = () => {
       <main className="home">
         <div className="presentation">
         <h2 className="presentation__text">Désolé vous vous êtes perdu en route...</h2>
-        <Link className="presentation__button" to="/portfolio">View my portoflio</Link>
+        <Link className="presentation__button" to="/portfolio">Voir mon portfolio</Link>
         </div>
         <div className="home__background">
-        <img src={portrait} alt="It's me !" />
+        <img src={portrait} alt="C'est moi !" />
         </div>
       </main>
     </>
