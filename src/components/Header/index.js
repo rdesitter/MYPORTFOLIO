@@ -19,8 +19,8 @@ const Header = ({ isDark }) => {
                     <ul className="header__menu__list">
                         <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/" onClick={toggleMenu}>Accueil</NavLink></li>
                         <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/portfolio" onClick={toggleMenu}>Portfolio</NavLink></li>
-                        {/* <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/resume" onClick={toggleMenu}>A propos</NavLink></li>
-                        <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/contact" onClick={toggleMenu}>Me contacter</NavLink></li> */}
+                        <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/a-propos" onClick={toggleMenu}>A propos</NavLink></li>
+                        {/* <li className="header__menu__list--item"><NavLink className="header__menu__list--link" to="/contact" onClick={toggleMenu}>Me contacter</NavLink></li>  */}
                     </ul>
                 </nav>
             </div>
