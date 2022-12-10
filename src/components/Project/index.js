@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import "./style.scss"
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { ExternalLink, GitHub, Lock  } from 'react-feather';
+import { ExternalLink, GitHub, Lock, Calendar  } from 'react-feather';
 import ProjectNav from "./ProjectNav";
 
-function Project({ id, title, categories, slug, thumbnail, background, totalItems, link, repo, details, back }) {
+function Project({ id, title, categories, date, thumbnail, background, totalItems, link, repo, details, back }) {
   const [show, setShow] = useState(false);
   const index = useSelector(state => state.projectItem.id);
   function createMarkup() {
@@ -25,7 +25,10 @@ function Project({ id, title, categories, slug, thumbnail, background, totalItem
         <ProjectNav />
         <div className="container">
         <div className={show ? 'project-item__info active' : 'project-item__info'}>
-            <p className="project-item__count"><span className="project-item__count--index">{id < 10 ? '0'+id : id}</span><span className="project-item__count--total">/{totalItems < 10 ? '0'+totalItems : totalItems}</span></p>
+            <p className="project-item__count">
+              <span className="project-item__count--index">{id < 10 ? '0'+id : id}</span><span className="project-item__count--total">/{totalItems < 10 ? '0'+totalItems : totalItems}</span>
+              <span className="project-item__date"><Calendar /> {date}</span>
+            </p>
             <div className="project-item__content">
                 {categories.map((category) => (
                   <p className="project-item__content__category" key={category}>{category}</p>

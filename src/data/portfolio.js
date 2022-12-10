@@ -31,7 +31,7 @@ const projects = [
         slug: 'bravogames',
         thumbnail: '/assets/img/slider/bravogames.png',
         background: '/assets/img/slider/slide-2.jpg',
-        date: '2016 - 2022',
+        date: '2016 <',
         link: {
             url: "https://www.bravospeed.com/",
             label: "Visiter Bravospeed.com"
@@ -53,7 +53,7 @@ const projects = [
         slug: 'ballman',
         thumbnail: '/assets/img/slider/ballman-preview.png',
         background: '/assets/img/slider/ballman-cover.jpg',
-        date: 'Novembre 2021 - Janvier 2022',
+        date: '2022',
         link: {
             url: "https://ballmanproject.io/",
             label: "Visiter BallmanProject.io"
@@ -77,7 +77,7 @@ const projects = [
         slug: 'lords-of-meta',
         thumbnail: '/assets/img/slider/lordsofmeta-preview.png',
         background: '/assets/img/slider/lordsofmeta-cover.jpg',
-        date: 'Février 2022 - Avril 2022',
+        date: '2022',
         link: {
             url: "https://lordsofmeta.io/",
             label: "Visiter LordsOfMeta.io"
@@ -103,18 +103,18 @@ const projects = [
         slug: 'savoir',
         thumbnail: '/assets/img/slider/savoir-preview.png',
         background: '/assets/img/slider/savoir-cover.jpg',
-        date: 'Septembre 2022',
+        date: '2022',
         link: {
             url: "https://savoir.surge.sh/",
             label: "Voir le site"
         },
         repo: {
-            url: "https://github.com/O-clock-Flamel/projet-11-transmission-des-savoirs-front",
+            url: "https://github.com/rdesitter/savoir-front",
             label: "Front-end",
             private: false,
         },
         back:  {
-            url: "https://github.com/O-clock-Flamel/projet-11-transmission-des-savoirs-back",
+            url: "https://github.com/rdesitter/savoir-back",
             label: "Back-end",
             private: false,
         },
